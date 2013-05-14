@@ -1,0 +1,388 @@
+
+/* Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
+*/
+
+/* Table of Content
+==================================================
+	#Site Styles
+	#Page Styles
+	#Media Queries
+	#Font-Face */
+
+/* #Site Styles
+================================================== */
+
+@import "bootstrap.min";
+
+$orange: #f17322;
+$brown: #332714;
+$blue: darken(#008CCC,5%);
+$label-body: #f5c9df;
+$label-border: #ec6f9c;
+
+@mixin anchor($color,$deco-normal,$deco-hover) {
+  a {
+    color: $color;
+    text-decoration: $deco-normal;
+    &:hover {
+      color: darken($color, 10%);
+      text-decoration: $deco-hover;
+    }
+  }
+}
+
+.group {
+  @extend .clearfix;
+}
+
+body {
+  color: #555;
+  font-family: georgia,times,serif;
+  font-size: 105%;
+  line-height: 1.5;
+}
+
+ul,li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  a {
+    color: $blue;
+    &:hover {
+      color: darken($blue, 10%);
+      text-decoration: none;
+    }
+  }
+}
+
+h2 {
+  font-family: "quatro-slab-1", "quatro-slab-2", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+header {
+  margin-top: -25px;
+  padding: 0 0 40px;
+  text-align: center;
+  img {
+    width: 100%;
+    max-width: 335px;
+  }
+}
+section {
+  article {
+    border-top: 1px solid #ededed;
+    margin-bottom: 50px;
+    position: relative;
+    h2 {
+      color: $blue;
+      font-size: 200%;
+      margin-bottom: 25px;
+    }
+    .image-block {
+      text-align: center;
+      p {
+        color: #999;
+        font-size: 90%;
+        font-style: italic;
+        margin: 5px 0 0 0;
+        a {
+          text-decoration: underline;
+          &:hover {
+            text-decoration: none;
+          }
+        }
+      }
+    }
+    .post-time {
+      margin: -13px 0 30px 0;
+      text-align: center;
+      span {
+        background: #ededed;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        display: inline-block;
+        font-family: helvetica, sans-serif;
+        color: #666;
+        font-size: 14px;
+        line-height: 1;
+        margin: 0;
+        padding: 6px 10px;
+      }
+    }
+    .permalink {
+      border-top: 1px solid #ededed;
+      display: none;
+      margin-top: 50px;
+      text-align: center;
+      a {
+        background: #fff url('../images/bg-sprite.png') no-repeat 5px -10px;
+        background-size: 20px 20px;
+        display: block;
+        margin: -5px auto 0;
+        padding: 0 5px;
+        width: 20px;
+        height: 10px;
+        text-align: center;
+        text-indent: -9999px;
+        &:hover {
+          background-position: 5px 0px
+        }
+      }
+    }
+  }
+}
+
+footer {
+  background: #ededed;
+  border-top: 1px solid #bbb;
+  border-bottom: 1px solid #bbb;
+  -webkit-box-shadow: inset 0px 1px 5px 0px rgba(0, 0, 0, .1);
+  box-shadow: inset 0px 1px 5px 0px rgba(0, 0, 0, .1);
+  margin: 0 -20px 20px;
+  padding: 20px;
+  h2 {
+    margin-top: 0;
+    position: relative;
+  }
+}
+
+// Last.fm Chart
+// ----------------------------------------------------------------------------------------- //
+
+.photo-album {
+  h2 {
+    padding: 0 0 0 25px;
+    &:before {
+      background: url("../images/icon-sd-card.svg") no-repeat 0 0;
+      background-size: contain;
+      content: "";
+      position: absolute;
+      top: 5px;
+      left: 0;
+      width: 20px;
+      height: 27px;
+    }
+  }
+}
+.music-chart {
+  h2 {
+    padding: 0 0 0 25px;
+    &:before {
+      background: url("../images/icon-music.svg") no-repeat 0 0;
+      background-size: contain;
+      content: "";
+      position: absolute;
+      top: 5px;
+      left: 0;
+      width: 20px;
+      height: 27px;
+    }
+  }
+}
+.lastfm-chart {
+  font-family: helvetica;
+  font-weight: bold;
+  text-align: center;
+  ul {
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+  }
+  .itemRow {
+    background: $label-body;
+    border: 4px solid $label-border;
+    border-radius: 3px;
+    color: #333;
+    list-style: none;
+    margin: 0 0 5px;
+    padding: 0;
+    a {
+      color: #333;
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+    .itemName {
+      border-bottom: 4px solid $label-border;
+      padding: 3px 0 10px;
+      &:before,
+      &:after {
+        content: '"';
+      }
+    }
+    .itemArtist {
+      background: #fff;
+      border: 2px solid $label-border;
+      float: left;
+      line-height: 1;
+      margin: -12px 10%;
+      padding: 4px 0;
+      position: relative;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      width: 80%;
+      &:before {
+        border-top: 50px solid transparent;           /* Go big on the size, and let overflow hide */
+        border-bottom: 50px solid transparent;
+        border-left: 40px solid $label-border;
+        content: "";
+        display: block;
+        margin-top: -50px;
+        position: absolute;
+        top: 50%;
+        left: -30px;
+        width: 0;
+        height: 0;
+      }
+      &:after {
+        border-top: 50px solid transparent;           /* Go big on the size, and let overflow hide */
+        border-bottom: 50px solid transparent;
+        border-right: 40px solid $label-border;
+        content: "";
+        display: block;
+        margin-top: -50px;
+        position: absolute;
+        top: 50%;
+        right: -30px;
+        width: 0;
+        height: 0;
+      }
+    }
+    .itemPlaycount {
+      padding: 10px 0 3px;
+      border-top: 4px solid $label-border;
+    }
+  }
+}
+
+// Instagram Photos
+// ----------------------------------------------------------------------------------------- //
+
+.instagram {
+  li {
+    float: left;
+    margin: 0 10px 10px 0;
+    position: relative;
+    img {
+      border: 5px solid #fff;
+      -moz-box-shadow: 1px 2px 3px rgba(0,0,0,.4);
+      -webkit-box-shadow: 1px 2px 3px rgba(0,0,0,.4);
+      box-shadow:  1px 2px 3px rgba(0,0,0,.4);
+      width: 85px;
+      @media (max-width: 979px) and (min-width: 768px) {
+        width: 70px;
+      }
+    }
+    &:nth-child(3n+3) {
+      margin-right: 0;
+      @media (min-width: 768px) and (max-width: 1199px) {
+        margin-right: 10px;
+      }
+    }
+    &:nth-child(10) {
+      // display: none;
+    }
+  }
+}
+
+// Elsewhere Links
+// ----------------------------------------------------------------------------------------- //
+
+.elsewhere {
+  li {
+    margin: 0 0 20px;
+  }
+  h3 {
+    font-family: helvetica, sans-serif;
+    font-size: 90%;
+    margin: 0;
+  }
+  p {
+    margin: 5px 0;
+  }
+  .pb-teaser {
+    color: #666;
+    font-size: 85%;
+    margin: 5px 0;
+  }
+  .pb-link {
+    font-family: helvetica, sans-serif;
+    font-size: 85%;
+    font-weight: bold;
+    a {
+      color: $label-border;
+      &:hover {
+        color: darken($label-border,10%);
+      }
+    }
+  }
+}
+
+/* #Page Styles
+================================================== */
+
+/* #Media Queries
+================================================== */
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 1199px) {
+  .instagram {
+    li {
+      &:nth-child(3n+3) {
+        margin-right: 10px;
+      }
+    }
+  }
+}
+
+@media (max-width: 979px) and (min-width: 768px) {
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+
+
+}
+
+
+
+/* #Font-Face
+================================================== */
+/* 	This is the proper syntax for an @font-face file
+		Just create a "fonts" folder at the root,
+		copy your FontName into code below and remove
+		comment brackets */
+
+/*	@font-face {
+	    font-family: 'FontName';
+	    src: url('../fonts/FontName.eot');
+	    src: url('../fonts/FontName.eot?iefix') format('eot'),
+	         url('../fonts/FontName.woff') format('woff'),
+	         url('../fonts/FontName.ttf') format('truetype'),
+	         url('../fonts/FontName.svg#webfontZam02nTh') format('svg');
+	    font-weight: normal;
+	    font-style: normal; } */

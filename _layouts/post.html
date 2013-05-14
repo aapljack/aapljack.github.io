@@ -1,0 +1,11 @@
+---
+layout: default
+---
+
+<section>
+  <article>
+    <p class="post-time"><span>{{ page.date | date: "%A, %B %d, %Y" }}</span></p>
+    <h2><a href="{{ post.url }}">{{ page.title }}</a></h2>
+    {{ content }}
+  </article>
+</section>

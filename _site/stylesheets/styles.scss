@@ -1,0 +1,41 @@
+body {
+  font-family: georgia,times,serif;
+  font-size: 105%;
+  line-height: 1.4;
+}
+
+header {
+  margin-top: -25px;
+  padding: 0 0 40px;
+  text-align: center;
+  img {
+    width: 100%;
+    max-width: 335px;
+  }
+}
+section {
+  article {
+    h2 {
+      color: #006393;
+      font-family: "quatro-slab-1", "quatro-slab-2", serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 200%;
+      margin-bottom: 25px;
+      a {
+        color: #006393;
+      }
+    }
+    .post-time {
+      border-top: 1px solid #ededed;
+      font-family: helvetica, sans-serif;
+      color: #999;
+      font-size: 90%;
+      text-align: right;
+      span {
+        background: #fff;
+        padding: 0 0 0 10px;
+      }
+    }
+  }
+}
