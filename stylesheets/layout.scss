@@ -58,15 +58,22 @@ h2 {
   font-family: "quatro-slab-1", "quatro-slab-2", serif;
   font-weight: 500;
   font-style: normal;
+  line-height: 1.2;
 }
 
 header {
   margin-top: -25px;
   padding: 0 0 40px;
   text-align: center;
+  @media (max-width: 767px) {
+    margin-top: -20px;
+  }
   img {
     width: 100%;
     max-width: 335px;
+    @media (max-width: 767px) {
+      width: 70%;
+    }
   }
 }
 section {
