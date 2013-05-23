@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{% for post in site.posts %}
+{% for post in paginator.posts %}
   <section>
     <article>
       <p class="post-time"><span>{{ post.date | date: "%A, %B %d, %Y" }}</span></p>
