@@ -20,7 +20,7 @@
   <link rel="apple-touch-icon" sizes="114x114" href="/images/apple-touch-icon-114x114.png">
 
 </head>
-<body>
+<body{% if page.body-class %} class="{{ page.body-class }}"{% endif %}>
   <div class="container">
     <div class="row-fluid">
       <div class="span10 offset1">

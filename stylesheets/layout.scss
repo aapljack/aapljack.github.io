@@ -56,8 +56,6 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 h2 {
-  // font-family: "quatro-slab-1", "quatro-slab-2", serif;
-  // font-weight: 500;
   font-family: 'Roboto Slab', georgia, serif;
   font-weight: 400;
   font-style: normal;
@@ -151,7 +149,6 @@ section {
   li {
     background: #fff;
     border: 1px solid #ddd;
-    // border-bottom-width: 0;
     border-left-width: 0;
     display: inline-block;
     margin-left: -4px;
@@ -191,10 +188,37 @@ footer {
   }
 }
 
+.post {
+  section {
+    article {
+      margin-bottom: 40px;
+    }
+  }
+  footer {
+    padding-top: 30px;
+  }
+}
+
 // Elsewhere Links
 // ----------------------------------------------------------------------------------------- //
 
 .elsewhere {
+  @media (max-width: 767px) {
+    margin-bottom: 20px;
+  }
+  h2 {
+    padding: 0 0 0 25px;
+    &:before {
+      background: url("../images/icon-link.svg") no-repeat 0 0;
+      background-size: contain;
+      content: "";
+      position: absolute;
+      top: 3px;
+      left: 0;
+      width: 20px;
+      height: 27px;
+    }
+  }
   li {
     margin: 0 0 20px;
   }
@@ -227,6 +251,24 @@ footer {
 // Instagram Photos
 // ----------------------------------------------------------------------------------------- //
 
+.photo-album {
+  @media (max-width: 767px) {
+    margin-bottom: 20px;
+  }
+  h2 {
+    padding: 0 0 0 25px;
+    &:before {
+      background: url("../images/icon-sd-card.svg") no-repeat 0 0;
+      background-size: contain;
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 20px;
+      height: 27px;
+    }
+  }
+}
 .instagram {
   li {
     float: left;
@@ -241,6 +283,9 @@ footer {
       @media (max-width: 979px) and (min-width: 768px) {
         width: 70px;
       }
+      @media (max-width: 767px) {
+        width: 120px;
+      }
     }
     &:nth-child(3n+3) {
       margin-right: 0;
@@ -254,21 +299,6 @@ footer {
 // Last.fm Chart
 // ----------------------------------------------------------------------------------------- //
 
-.photo-album {
-  h2 {
-    padding: 0 0 0 25px;
-    &:before {
-      background: url("../images/icon-sd-card.svg") no-repeat 0 0;
-      background-size: contain;
-      content: "";
-      position: absolute;
-      top: 5px;
-      left: 0;
-      width: 20px;
-      height: 27px;
-    }
-  }
-}
 .music-chart {
   h2 {
     padding: 0 0 0 25px;
@@ -277,7 +307,7 @@ footer {
       background-size: contain;
       content: "";
       position: absolute;
-      top: 5px;
+      top: 3px;
       left: 0;
       width: 20px;
       height: 27px;
