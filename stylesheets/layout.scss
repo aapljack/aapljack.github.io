@@ -144,6 +144,7 @@ section {
 
 .pagination {
   display: block;
+  font-size: 0; // For inline-block to behave
   margin-bottom: -20px;
   text-align: center;
   li {
@@ -151,7 +152,6 @@ section {
     border: 1px solid #ddd;
     border-left-width: 0;
     display: inline-block;
-    margin-left: -4px;
     &:first-child {
       border-left-width: 1px;
     }
@@ -160,6 +160,7 @@ section {
     }
     a, span {
       display: block;
+      font-size: 15px;
       padding: 10px;
       &.current-page {
         background: #ededed;
