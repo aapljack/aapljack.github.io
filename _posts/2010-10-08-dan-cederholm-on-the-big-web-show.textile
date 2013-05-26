@@ -5,7 +5,7 @@ title: Dan Cederholm On The Big Web Show
 As their site says, 'The Big Web Show features special guests and topics like web publishing, art direction, content strategy, typography, web technology, and more. It's everything web that matters.' This week's guest was none other than Dan Cederholm. Dan has been a long-time proponent of standards based design and his site, "Simplebits":http://www.simplebits.com, was one of the first sites I discovered when learning about web standards and has been a big influence on me professionally.
 
 <div class="image-block">
-  "!/images/bigwebshow-22.png(Dan Cederholm on the Big Web Show)!":http://5by5.tv/bigwebshow/22
+  "!/images/posts/cederholm.jpg(Photo of Dan Cederholm on the Big Web Show)!":http://5by5.tv/bigwebshow/22
 </div>
 
 Check out his "interview":http://5by5.tv/bigwebshow/22 and, while you are at it, check out the other great shows available on "5by5.tv":http://www.5by5.tv.

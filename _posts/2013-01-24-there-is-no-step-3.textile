@@ -14,7 +14,9 @@ For a while I was convinced that my next computer would be a MacBook Air. If the
 
 I started thinking about my computer usage patterns. I had originally wanted a laptop so I could take it anywhere. Well, as it turns out, it mostly stays in one spot on my desk. And when I do take it somewhere, it is hard to work on because the screen is so small. At my day job, I have a 15" MacBook Pro and a 27" Apple display. All that real estate will spoil you. Then I saw it, the new iMac.
 
-<a href="http://apple.com/imac"><img src="http://www.centerweight.com/wordpress/wp-content/uploads/2013/01/gallery_3_2256-1024x548.jpg" alt="Photo of the Beautiful New iMac" class="size-full" /></a>
+<div class="image-block">
+  "!/images/posts/imac.jpg(Photo of the Beautiful New iMac)!":http://apple.com/imac
+</div>
 
 I remember seeing it during the keynote at that tricky angle where it looks just 5mm thin. That is a good trick. And it works. The new iMacs look like flat panels from most angles. What I am getting at is that this is one fine looking computer.
 

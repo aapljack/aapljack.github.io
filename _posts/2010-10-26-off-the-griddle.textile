@@ -5,7 +5,7 @@ title: Off the Griddle
 Tucked away in the new food cart pod on 50th and Division, you will find **Off The Griddle**. OTG is a solar-powered cart specializing in vegan and vegetarian burgers made with locally-grown produce.
 
 <div class="image-block">
-  !http://www.centerweight.com/wordpress/wp-content/uploads/2010/10/otg2.jpg(OTG Burger)!
+  !/images/posts/otg2.jpg(OTG Burger)!
 </div>
 
 Always excited to find new vegan burger options, I was anxious to try out this cart. I have had both the &#8220;bacon cheese&#8221; burger and the OTG burger. All their burgers are served on Dave&#8217;s Killer Bread usually with lettuce, tomato and grilled onions. I believe the OTG burger also had avocado and the bacon cheese burger included homemade tempeh bacon and Daiya cheese.
