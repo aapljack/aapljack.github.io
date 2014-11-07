@@ -75,9 +75,6 @@ h2 {
   font-weight: 400;
   font-style: normal;
   line-height: 1.2;
-  @media (max-width: 767px) {
-
-  }
 }
 
 header {
@@ -106,11 +103,6 @@ section {
       margin-bottom: 25px;
       @media (max-width: 767px) {
         font-size: 150%;
-      }
-    }
-    p {
-      @media (max-width: 767px) {
-        font-size: 90%;
       }
     }
     .image-block {
@@ -208,7 +200,6 @@ footer {
   border-bottom: 1px solid #bbb;
   -webkit-box-shadow: inset 0px 1px 5px 0px rgba(0, 0, 0, .1);
   box-shadow: inset 0px 1px 5px 0px rgba(0, 0, 0, .1);
-  margin: 0 -20px 20px;
   padding: 40px 20px 20px;
   h2 {
     margin-top: 0;
@@ -228,7 +219,7 @@ footer {
 }
 
 // Elsewhere Links
-// ----------------------------------------------------------------------------------------- //
+// ---------------------------------------- //
 
 .elsewhere {
   @media (max-width: 767px) {
