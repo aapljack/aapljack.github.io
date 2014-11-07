@@ -2,8 +2,6 @@
 <head>
   <meta charset="utf-8">
   <title>{% if page.title %} {{ page.title }} | {% endif %}Centerweight</title>
-  <meta name="description" content="">
-  <meta name="author" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
   <link rel="stylesheet" href="/stylesheets/layout.css">
@@ -15,45 +13,37 @@
   <!-- Favicons
   ================================================== -->
   <link rel="shortcut icon" href="/images/favicon.ico">
-  <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="/images/apple-touch-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="/images/apple-touch-icon-114x114.png">
 
   <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.url }}/feed.xml">
 
 </head>
 <body{% if page.body-class %} class="{{ page.body-class }}"{% endif %}>
-  <div class="container">
-    <div class="row-fluid">
-      <div class="span10 offset1">
-        <header>
-          <a href="/" title="Go to Homepage"><img src="/images/logo-large.png" /></a>
-        </header>
-        {{ content }}
-        </div>
-      </div>
+  <div class="row">
+    <div class="small-10 small-offset-1 large-8 large-offset-2 column">
+      <header>
+        <a href="/" title="Go to Homepage"><img src="/images/logo-large.png" /></a>
+      </header>
+      {{ content }}
     </div>
-  </div><!-- container -->
+  </div>
   <footer>
-    <div class="container">
-      <div class="row-fluid">
-        <div class="span10 offset1">
-          <div class="row-fluid">
-            <div class="elsewhere span4 group">
-              <h2><a href="https://pinboard.in/u:aapljack" title="Go to my pinboard page">Elsewhere</a></h2>
-              <div id="elsewhere">
+    <div class="row">
+      <div class="large-12 column">
+        <div class="row">
+          <div class="elsewhere medium-4 columns">
+            <h2><a href="https://pinboard.in/u:aapljack" title="Go to my pinboard page">Elsewhere</a></h2>
+            <div id="elsewhere">
 
-              </div>
             </div>
-            <div class="photo-album span4 group">
-              <h2><a href="http://instagram.com/aapljack" title="Go to my Instagram page">Camera Roll</a></h2>
-              <ul class="instagram"></ul>
-            </div>
+          </div>
+          <div class="photo-album medium-4 columns">
+            <h2><a href="http://instagram.com/aapljack" title="Go to my Instagram page">Camera Roll</a></h2>
+            <ul class="instagram"></ul>
+          </div>
 
-            <div class="music-chart span4 group">
-              <h2><a href="http://www.last.fm/user/aapljack" title="Go to my last.fm profile">On Constant Rotation</a></h2>
-              <div class="lastfm-chart"></div>
-            </div>
+          <div class="music-chart medium-4 columns">
+            <h2><a href="http://www.last.fm/user/aapljack" title="Go to my last.fm profile">On Constant Rotation</a></h2>
+            <div class="lastfm-chart"></div>
           </div>
         </div>
       </div>

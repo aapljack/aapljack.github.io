@@ -20,7 +20,6 @@ $(document).ready(function () {
     MaxCount : 3,
     ShowDesc : true,
     ShowPubDate: false,
-    DescCharacterLimit: 100,
     TitleLinkTarget:'_blank'
   });
 });

@@ -1,11 +1,21 @@
-@import "bootstrap.min";
+---
+---
+
+@import 'normalize';
+@import 'foundation';
 @import url(http://fonts.googleapis.com/css?family=Roboto+Slab);
 
+// Colors
 $orange: #f17322;
 $brown: #332714;
 $blue: darken(#008CCC,5%);
 $label-body: #f5c9df;
 $label-border: #ec6f9c;
+$text-link: $label-border;
+
+// Fonts
+$roboto: 'Roboto Slab', georgia, serif;
+$arial: Arial, sans-serif;
 
 @mixin anchor($color,$deco-normal,$deco-hover) {
   a {
@@ -34,9 +44,13 @@ $label-border: #ec6f9c;
 
 body {
   color: #555;
-  font-family: 'Roboto Slab', serif;
+  font-family: $roboto;
   font-size: 95%;
   line-height: 1.5;
+}
+
+a {
+  color: $text-link;
 }
 
 ul,li {
@@ -48,6 +62,7 @@ ul,li {
 h1,h2,h3,h4,h5,h6 {
   a {
     color: $blue;
+    text-decoration: none;
     &:hover {
       color: darken($blue, 10%);
       text-decoration: none;
@@ -56,10 +71,13 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 h2 {
-  font-family: 'Roboto Slab', georgia, serif;
+  font-family: $roboto;
   font-weight: 400;
   font-style: normal;
   line-height: 1.2;
+  @media (max-width: 767px) {
+
+  }
 }
 
 header {
@@ -86,6 +104,14 @@ section {
       color: $blue;
       font-size: 200%;
       margin-bottom: 25px;
+      @media (max-width: 767px) {
+        font-size: 150%;
+      }
+    }
+    p {
+      @media (max-width: 767px) {
+        font-size: 90%;
+      }
     }
     .image-block {
       text-align: center;
@@ -112,7 +138,7 @@ section {
         border-radius: 5px;
         color: #666;
         display: inline-block;
-        font-family: helvetica, sans-serif;
+        font-family: $arial;
         font-size: 14px;
         line-height: 1;
         margin: 0;
@@ -167,6 +193,7 @@ section {
       }
     }
     a {
+      color: $blue;
       text-decoration: none;
       &:hover {
         background: lighten(#ededed, 5%);
@@ -224,7 +251,7 @@ footer {
     margin: 0 0 20px;
   }
   h3 {
-    font-family: 'helvetica', sans-serif;
+    font-family: $arial;
     font-size: 90%;
     margin: 0;
   }
@@ -237,7 +264,7 @@ footer {
     margin: 5px 0;
   }
   .pb-link {
-    font-family: helvetica, sans-serif;
+    font-family: $arial;
     font-size: 85%;
     font-weight: bold;
     a {
@@ -250,7 +277,7 @@ footer {
 }
 
 // Instagram Photos
-// ----------------------------------------------------------------------------------------- //
+// ---------------------------------------- //
 
 .photo-album {
   @media (max-width: 767px) {
@@ -273,32 +300,33 @@ footer {
 .instagram {
   li {
     float: left;
-    margin: 0 10px 10px 0;
+    margin: 0 3% 3% 0;
     position: relative;
+    width: 31.333333333%;
     img {
       border: 5px solid #fff;
       -moz-box-shadow: 1px 2px 3px rgba(0,0,0,.4);
       -webkit-box-shadow: 1px 2px 3px rgba(0,0,0,.4);
-      box-shadow:  1px 2px 3px rgba(0,0,0,.4);
-      width: 85px;
-      @media (max-width: 979px) and (min-width: 768px) {
-        width: 70px;
-      }
-      @media (max-width: 767px) {
-        width: 120px;
+      box-shadow: 1px 2px 3px rgba(0,0,0,.4);
+    }
+    @media #{$large-up} {
+      &:nth-child(3n+3) {
+        margin-right: 0;
       }
     }
-    &:nth-child(3n+3) {
-      margin-right: 0;
-      @media (max-width: 1199px) {
-        margin-right: 10px;
+
+    @media #{$small-only, $medium-only} {
+      margin: 0 4% 4% 0;
+      width: 48%;
+      &:nth-child(2n+2) {
+        margin-right: 0;
       }
     }
   }
 }
 
 // Last.fm Chart
-// ----------------------------------------------------------------------------------------- //
+// ---------------------------------------- //
 
 .music-chart {
   h2 {
@@ -316,7 +344,7 @@ footer {
   }
 }
 .lastfm-chart {
-  font-family: helvetica;
+  font-family: $arial;
   font-weight: bold;
   text-align: center;
   ul {
@@ -360,7 +388,8 @@ footer {
       white-space: nowrap;
       width: 80%;
       &:before {
-        border-top: 50px solid transparent;           /* Go big on the size, and let overflow hide */
+        border-top: 50px solid transparent;
+        /* Go big on the size, and let overflow hide */
         border-bottom: 50px solid transparent;
         border-left: 40px solid $label-border;
         content: "";
@@ -373,7 +402,8 @@ footer {
         height: 0;
       }
       &:after {
-        border-top: 50px solid transparent;           /* Go big on the size, and let overflow hide */
+        border-top: 50px solid transparent;
+        /* Go big on the size, and let overflow hide */
         border-bottom: 50px solid transparent;
         border-right: 40px solid $label-border;
         content: "";
@@ -391,32 +421,4 @@ footer {
       border-top: 4px solid $label-border;
     }
   }
-}
-
-// #Media Queries
-// ================================================== //
-
-/* Large desktop */
-@media (min-width: 1200px) {
-
-}
-
-/* Portrait tablet to landscape and desktop */
-@media (max-width: 1199px) {
-
-}
-
-@media (max-width: 979px) {
-
-}
-
-/* Landscape phone to portrait tablet */
-@media (max-width: 767px) {
-
-}
-
-/* Landscape phones and down */
-@media (max-width: 480px) {
-
-
 }
