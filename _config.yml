@@ -1,6 +1,12 @@
 name: Centerweight
 description: A personal site.
-url: http://aapljack.github.io
+url: http://centerweight.com
 paginate: 3
 sass:
   style: :compressed
+plugins:
+  [jekyll-paginate]
+
+collections:
+  games:
+    output: false

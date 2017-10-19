@@ -1,0 +1,9 @@
+---
+console: Atari 7800
+image: 1024px-Atari-7800-Console-Set.png
+games:
+  - Food Fight
+  - Dig Dug (sealed)
+accessories:
+  - Joystick (2)
+---

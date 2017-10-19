@@ -15,11 +15,11 @@ For a while I was convinced that my next computer would be a MacBook Air. If the
 I started thinking about my computer usage patterns. I had originally wanted a laptop so I could take it anywhere. Well, as it turns out, it mostly stays in one spot on my desk. And when I do take it somewhere, it is hard to work on because the screen is so small. At my day job, I have a 15" MacBook Pro and a 27" Apple display. All that real estate will spoil you. Then I saw it, the new iMac.
 
 <div class="image-block">
-  "!/images/posts/imac.jpg(Photo of the Beautiful New iMac)!":http://apple.com/imac
+  <a href="http://www.apple.com/imac"><img src="/images/posts/imac.jpg" alt="Photo of the Beautiful New iMac" /></a>
 </div>
 
 I remember seeing it during the keynote at that tricky angle where it looks just 5mm thin. That is a good trick. And it works. The new iMacs look like flat panels from most angles. What I am getting at is that this is one fine looking computer.
 
-I had never really considered an iMac as a home computer before. I went straight from desktop towers to laptops. What attracted me to the new iMac was the large screen, 4 RAM slots and the Fusion drive. It didn't really bother me that it would always be sitting on my desk, because that is what my computer does now. I also like the compact nature of the machine. I am coming from a setup where cords are strewn about and the display requires an ADC to DVI adapter that is as large as a Buick. The iMac has one cord. There is "no step three":http://www.youtube.com/watch?v=YHzM4avGrKI. These days there isn't even a step two.
+I had never really considered an iMac as a home computer before. I went straight from desktop towers to laptops. What attracted me to the new iMac was the large screen, 4 RAM slots and the Fusion drive. It didn't really bother me that it would always be sitting on my desk, because that is what my computer does now. I also like the compact nature of the machine. I am coming from a setup where cords are strewn about and the display requires an ADC to DVI adapter that is as large as a Buick. The iMac has one cord. There is [no step three](http://www.youtube.com/watch?v=YHzM4avGrKI). These days there isn't even a step two.
 
 So that is how I went from Power Mac G4 towers to Powerbooks to MacBook Pros and now to the consumer friendly iMac.

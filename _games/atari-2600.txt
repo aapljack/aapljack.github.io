@@ -1,0 +1,14 @@
+---
+console: Atari 2600
+image: Atari-2600-Wood-4Sw-Set.jpg
+games:
+  - Asteriods
+  - Dodge 'em
+  - Defender
+  - Missile Command
+  - Donkey Kong
+  - Keystone Kapers
+accessories:
+  - Joystick (4)
+  - Paddles (2)
+---

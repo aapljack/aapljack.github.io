@@ -1,0 +1,27 @@
+---
+noindex: true
+layout: default
+---
+{% for system in site.games %}
+  <div class="game-entry">
+    <img src="/images/consoles/{{ system.image }}" class="game-entry__image">
+    <h2 class="game-entry__heading">{{ system.console }}</h2>
+    <ul class="game-entry__list">
+      {% assign games = system.games | sort: game %}
+      {% for game in games %}
+        <li>{{ game }}</li>
+      {% endfor %}
+    </ul>
+    {% if system.accessories %}
+      <div class="game-entry__panel">
+        <h3 class="game-entry__subheading">Accessories</h3>
+        <ul class="game-entry__list">
+          {% assign accessories = system.accessories | sort: accessory %}
+          {% for accessory in accessories %}
+            <li>{{ accessory }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    {% endif %}
+  </div>
+{% endfor %}

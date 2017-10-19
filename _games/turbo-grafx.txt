@@ -1,0 +1,19 @@
+---
+console: TurboGrafx 16
+image: turbografx.png
+games:
+  - Bonk's Adventure
+  - China Warrior
+  - SplatterHouse
+  - R-Type
+  - Tiger Road
+  - Ninja Spirit
+  - Legendary Axe II
+  - Sidearms
+  - Dungeon Explorer
+  - Tricky Kick
+  - TV Sports Football
+
+accessories:
+  - Controller (1)
+---

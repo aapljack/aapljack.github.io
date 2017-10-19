@@ -1,0 +1,13 @@
+---
+console: Vectrex
+image: 819px-Vectrex-Console-Set.png
+games:
+  - Armor Attack
+  - Berzerk (2) (overlay)
+  - Clean Sweep
+  - Rip Off (overlay + box)
+  - Spike (overlay)
+  - Star Trek
+  - Vectrom Multi-Cart
+  - Web Wars
+---

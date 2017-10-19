@@ -1,0 +1,28 @@
+---
+console: Nintendo 64
+image: n64.png
+games:
+  - Robotron 64
+  - 1080º
+  - Star Wars Episode I - Racer
+  - Madden Football 64
+  - All-Star Baseball 2000
+  - Pilotwings 64
+  - Star Wars Rogue Squadron
+  - GoldenEye
+  - Hey You, Pikachu
+  - Star Wars Episode I - Battle for Naboo
+  - Blast Corps
+  - Airboarder 64 (Import)
+  - Pilotwings 64 (Import, Boxed)
+  - WCW Nitro
+  - PD Ultraman Battle Collection 64 (Import)
+  - AeroGauge (Import)
+  - Diddy Kong Racing (Import)
+  - Buck Bumble (Import)
+  - Wetrix (Import)
+  - Yoshi's Story (Import)
+accessories:
+  - Joystick (4)
+  - Japan » USA Converter
+---

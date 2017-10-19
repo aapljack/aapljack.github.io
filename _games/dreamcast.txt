@@ -1,0 +1,21 @@
+---
+console: Sega Dreamcast
+image: dreamcast.png
+games:
+  - NBA 2K1
+  - Tennis 2K2
+  - Dig Dug (sealed)
+  - Ready to Rumble
+  - Ready to Rumble 2
+  - Web Browser
+  - PenPen TriIcelon
+  - Railroad Tycoon II
+  - Crazy Taxi 2
+  - Crazy Taxi
+  - Sonic Adventure
+  - ECW Hardcore Revolution
+  - 'Star Wars Episode I: Jedi Power Battles'
+  - ECW Anarchy Rulz
+accessories:
+  - Controllers (4)
+---
