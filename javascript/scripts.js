@@ -9,8 +9,8 @@ $(document).ready(function () {
 
   $(".instagram").instagram({
     userId: '1588265',
-    clientId: 'e0d748e676a04859b7bebb33a1cb91eb',
-    accessToken: 'IGQVJWdGdOZAmZAXdWVzLXNPdWtDZAW5USkZAWNW00ajc5b1hONjNBNTFla29XTXQ0eFdKN29nU0ZAoa083LW1GRnF6Y3lYaEEtRXZA3Q2pJOGRTSEdoWnREOVJJQWQxZAHJseFMwOUJYeVFR',
+    clientId: '814874716256302',
+    accessToken: 'IGQVJYaDlfX01MTm9ORVJuQkd4cFNnUmJXNjljZAUNsVnRDR2p5RFM4MmlpczV0XzU3WmdOeWFoYVRSSloxTHF6VklfWlo1WnQxOHdkZA3F3REdUaDRtWjkwWTl2VldDbU8yaVkwSTNR',
     show: '12',
     image_size: 'low_resolution'
   });
