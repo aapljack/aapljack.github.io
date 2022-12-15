@@ -9,4 +9,4 @@ My decision to cut cable tv wasn't exactly a hard one. Most of the shows I cared
   <img src="{{ site.url }}/images/posts/img_pale_whale.jpg" />
 </div>
 
-Luckily, <a href="http://www.teamcoco.com">teamcoco.com</a> has come to the rescue and is posting new episodes the day after they air. Crisis averted. <a href="http://www.tbs.com/video/conan/">Watch now »</a>
+Luckily, <a href="https://www.teamcoco.com">teamcoco.com</a> has come to the rescue and is posting new episodes the day after they air. Crisis averted. <a href="https://www.tbs.com/video/conan/">Watch now »</a>

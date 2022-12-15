@@ -1,6 +1,6 @@
 name: Centerweight
 description: A personal site.
-url: http://centerweight.com
+url: https://centerweight.com
 paginate: 3
 sass:
   style: :compressed

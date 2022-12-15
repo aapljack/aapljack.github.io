@@ -14,7 +14,7 @@ To accompany the burgers, you can order a Veggie Volt. The Volt is a spiral-slic
 
 According to their Urban Spoon entry, their specials and new patty recipes are rotated out each month. So head on down there and see what they have in store for you today.
 
-**[Off The Griddle](http://www.facebook.com/offthegriddle)**
+**[Off The Griddle](https://www.facebook.com/offthegriddle)**
 4926 SE Division St #7
 A La Carts Food Pavilion
 Portland, Oregon 97206

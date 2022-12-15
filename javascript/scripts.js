@@ -16,7 +16,7 @@ $(document).ready(function () {
   });
 
   $("#elsewhere").FeedEk({
-    FeedUrl : 'http://feeds.pinboard.in/rss/u:aapljack/t:centerweight',
+    FeedUrl : 'https://feeds.pinboard.in/rss/u:aapljack/t:centerweight',
     MaxCount : 3,
     ShowDesc : true,
     ShowPubDate: false,
