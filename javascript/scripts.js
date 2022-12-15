@@ -7,13 +7,13 @@ $(document).ready(function () {
     header: false
   });
 
-  $(".instagram").instagram({
-    userId: '1588265',
-    clientId: '814874716256302',
-    accessToken: 'IGQVJYaDlfX01MTm9ORVJuQkd4cFNnUmJXNjljZAUNsVnRDR2p5RFM4MmlpczV0XzU3WmdOeWFoYVRSSloxTHF6VklfWlo1WnQxOHdkZA3F3REdUaDRtWjkwWTl2VldDbU8yaVkwSTNR',
-    show: '12',
-    image_size: 'low_resolution'
-  });
+  // $(".instagram").instagram({
+  //   userId: '1588265',
+  //   clientId: '814874716256302',
+  //   accessToken: 'IGQVJYaDlfX01MTm9ORVJuQkd4cFNnUmJXNjljZAUNsVnRDR2p5RFM4MmlpczV0XzU3WmdOeWFoYVRSSloxTHF6VklfWlo1WnQxOHdkZA3F3REdUaDRtWjkwWTl2VldDbU8yaVkwSTNR',
+  //   show: '12',
+  //   image_size: 'low_resolution'
+  // });
 
   $("#elsewhere").FeedEk({
     FeedUrl : 'https://feeds.pinboard.in/rss/u:aapljack/t:centerweight',
