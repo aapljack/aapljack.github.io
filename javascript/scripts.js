@@ -10,7 +10,7 @@ $(document).ready(function () {
   $(".instagram").instagram({
     userId: '1588265',
     clientId: 'e0d748e676a04859b7bebb33a1cb91eb',
-    accessToken: '1588265.e0d748e.9c91e51e830d41b9ae88296b659fdb18',
+    accessToken: 'IGQVJWdGdOZAmZAXdWVzLXNPdWtDZAW5USkZAWNW00ajc5b1hONjNBNTFla29XTXQ0eFdKN29nU0ZAoa083LW1GRnF6Y3lYaEEtRXZA3Q2pJOGRTSEdoWnREOVJJQWQxZAHJseFMwOUJYeVFR',
     show: '12',
     image_size: 'low_resolution'
   });
