@@ -64,7 +64,7 @@
 			}
 
 			// Create LastFM API address
-			var api = 'http://ws.audioscrobbler.com/2.0/?method='+ method +'&user='+ username +'&period='+ options.period +'&api_key='+ apikey +'&limit='+ options.limit +'&format=json&callback=?';
+			var api = 'https://ws.audioscrobbler.com/2.0/?method='+ method +'&user='+ username +'&period='+ options.period +'&api_key='+ apikey +'&limit='+ options.limit +'&format=json&callback=?';
 
 			// Send request
 			$.ajax({
@@ -213,7 +213,7 @@
 	var _getValidURL = function(u) {
 
 		var url = u;
-		if (u != '' && u.substr(0,7) != 'http://') url = 'http://'+ u;
+		if (u != '' && u.substr(0,7) != 'https://') url = 'https://'+ u;
 
 		return url;
 	};
