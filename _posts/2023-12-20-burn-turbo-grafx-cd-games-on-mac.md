@@ -21,11 +21,11 @@ We will be using [Burn](https://burn-osx.sourceforge.io/Pages/English/home.html)
 
 To make this work properly, you want to have a single `.bin` and `.cue` file.
 
-<img src="/images/posts/23-12-20-game-folder.png" alt="Photo of the Beautiful New iMac" />
+<img src="/images/posts/23-12-20-game-folder.png" alt="A computer window showing a single .bin and .cue file for Super Air Zonk" />
 
 For some games you will find multiple `.bin` files. For these, you will need to merge them into one `.bin` file using [binmerge](https://github.com/putnam/binmerge).
 
-<img src="/images/posts/23-12-20-multiple-bin.png" alt="Photo of the Beautiful New iMac" />
+<img src="/images/posts/23-12-20-multiple-bin.png" alt="A computer window showing a multiple .bin files and a single .cue file for Super Raiden" />
 
 To do this, you will..
 
@@ -36,13 +36,13 @@ To do this, you will..
 
 You should now have a new `.bin` and `.cue` file that will be used when burning the game.
 
-<img src="/images/posts/23-12-20-multiple-bin-result.png" alt="Mac folder showing multiple files including the newly created .bin and .cue files highlighted" />
+<img src="/images/posts/23-12-20-multiple-bin-result.png" alt="Mac folder showing multiple files including the newly created .bin and .cue files highlighted for Super Raiden" />
 
 ### Time to Burn
 
 We will now load the `.cue` file in the Burn app by launching the app, going to the 'Copy' tab, clicking on 'Open' and selecting the `.cue` file of the game you want to burn. You can also just drag the `.cue` file into the Burn window after you select 'Copy'.
 
-<img src="/images/posts/23-12-20-burn-screenshot.png" alt="Photo of the Beautiful New iMac" />
+<img src="/images/posts/23-12-20-burn-screenshot.png" alt="The Burn app window with the .cue file for Super Air Zonk loaded and ready to burn" />
 
 We will be burning this file to a CD-R. So once your files are loaded up in Burn, insert the blank CD into your burner. When you are ready, click 'Burn'. Now you can select your CD burner and speed. I have run all my copies at full speed and have not had any issues. Your milage may vary.
 
