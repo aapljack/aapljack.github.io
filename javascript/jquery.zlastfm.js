@@ -211,10 +211,10 @@
 
 	// Ensure URL is formatted correctly
 	var _getValidURL = function(u) {
-
-		var url = u;
-		if (u != '' && u.substr(0,7) != 'https://') url = 'https://'+ u;
-
-		return url;
+	  if (!u) return '';
+	  // If the URL already starts with http:// or https://, leave it as-is.
+	  if (/^https?:\/\//i.test(u)) return u;
+	  return 'https://' + u;
 	};
 })(jQuery);
+
