@@ -1,0 +1,22 @@
+---
+console: Colecovision
+image: ColecoVision-wController-L.jpg
+games:
+  - WarGames
+  - Super Action Baseball
+  - Looping
+  - Mouse Trap
+  - Cosmic Avenger
+  - Donkey Kong
+  - Pepper II
+  - Mr. Do!
+  - Congo Bongo
+  - Turbo
+  - River Raid
+  - Slither
+  - Smurf
+  - Zaxxon
+  - Gorf
+  - Time Pilot
+  - Rocky
+---
